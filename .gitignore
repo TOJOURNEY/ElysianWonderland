@@ -1,0 +1,27 @@
+# Ignore all files in build, intermediate, and saved folders
+**/Build/*
+**/Binaries/*
+**/DerivedDataCache/*
+**/Intermediate/*
+**/Saved/*
+
+# Ignore all user-specific files
+*.log
+*.tmp
+*.user
+*.userprefs
+*.vcxproj
+*.sln
+*.opensdf
+*.sdf
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore specific OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Unreal auto-generated files
+**/Content/Collection/*
